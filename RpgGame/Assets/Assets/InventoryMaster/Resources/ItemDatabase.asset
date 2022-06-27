@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4c29ddb3cf21d4e9b0596a8ba26af7, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: 
+    itemID: 0
+    itemDesc: 'If you drink this nice bottle you will get some health back.
+
+
+      +
+      20 Health'
+    itemIcon: {fileID: 0}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 0
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Pourfendeur Royal
+    itemID: 1
+    itemDesc: "Un glaive forg\xE9 pour les rois et dont l'histoire s'impr\xE9gnat
+      du sang de ses enemies "
+    itemIcon: {fileID: 21300000, guid: 3fe01ac7dafaf5a49a803df5cf7844d1, type: 3}
+    itemModel: {fileID: 4481018604512757361, guid: 259c334d2f40f2b4eb648791948717f0, type: 3}
+    itemValue: 10
+    itemType: 1
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 23
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 10
+  - itemName: Iron Helmet
+    itemID: 2
+    itemDesc: 'This helmet is created out of iron.
+
+      + 20 Health
+
+      + 20
+      Armor'
+    itemIcon: {fileID: 21300000, guid: 52b1e3fc60614e446b61e1c6bb148f57, type: 3}
+    itemModel: {fileID: 5920090988535972030, guid: 430e3070cf633da4f9c25d57c8e6f2fd, type: 3}
+    itemValue: 10
+    itemType: 4
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 10
+  - itemName: Iron Bracer
+    itemID: 3
+    itemDesc: 'This bracer is created out of iron.
+
+      + 20 Health
+
+      + 20
+      Armor'
+    itemIcon: {fileID: 21300000, guid: 0675760479e8095478c048cf1f97ba52, type: 3}
+    itemModel: {fileID: 436246387947576332, guid: 79810620e4e0202429b3e224323dc8d4, type: 3}
+    itemValue: 10
+    itemType: 11
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 10
+  - itemName: Skull Shield
+    itemID: 4
+    itemDesc: 'pirate shield
+
+      + 20 Health
+
+      + 20 Armor'
+    itemIcon: {fileID: 21300000, guid: 9f75650f0eeb5d144ad4425416da4ff1, type: 3}
+    itemModel: {fileID: 6203772301651442015, guid: 8f7b2e4fe5ba7bc4b93291c312ed6e32, type: 3}
+    itemValue: 10
+    itemType: 6
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 10
+  - itemName: kitsune
+    itemID: 5
+    itemDesc: kitsune
+    itemIcon: {fileID: 21300000, guid: e63d012c19db8d44ea4e1f39e3bb2926, type: 3}
+    itemModel: {fileID: 6662156773179129972, guid: 4804dc9b636bb0a49b12cfc7f62f51ae, type: 3}
+    itemValue: 10
+    itemType: 4
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 10
